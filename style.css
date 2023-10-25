@@ -1,0 +1,129 @@
+
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: baseline;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+img{
+    max-width: 180px;
+    height: auto;
+    margin: 10px;
+}
+
+article{
+    width: auto;
+    display: flex;
+    margin:auto;
+    max-block-size: 600px;
+}
+
+article .div_1 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline;
+}
+
+article .div_2 h2{
+    
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline;
+}
+
+
+
+
+#s_title{
+    margin: 20px;
+    background-color: #3498db;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+}
+#s_title_2{
+    margin: 20px;
+    background-color: #c7260a;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline;
+}
+#p_title{
+    padding: 50px;
+    
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 10px;
+}
+.div_1{
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    padding: 30px;
+    background-color: #aecde2;
+}
+
+.div_2{
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    padding: 30px;
+    background-color: #e7b173;
+}
+
+
+
+
+.botao_1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+    
+    .botao_1:hover {
+    background-color: #217dbb;
+    }
+    .botao_2 {
+        background-color: #941d08;
+        color: #fff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        }
+        
+        .botao_2:hover {
+        background-color: #440303
+        ;
+        }
+    footer{
+    display: flex;
+    align-items: baseline;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    

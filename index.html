@@ -4,76 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./build/main.css">
 </head>
 <body>
-    <header>
-        <h1 id="p_title">Site de Notícias</h1>
-        <ul>
-            <li>
-                <a href="#s_title">Tecnologia</a>
-                <a href="#s_title_2">Entretenimento</a>
+    <header class="header">
+        <h1 class="header__title">Site de Notícias</h1>
+        <ul class="header__nav">
+            <li class="header__nav-item">
+                <a href="#s_title" class="header__nav-item-link">Tecnologia</a>
+                <a href="#s_title_2" class="header__nav-item-link">Entretenimento</a>
             </li>
         </ul>
     </header>
 
-    <main>
-<h1 id="s_title">Tecnologia</h1>
-        <article>
-            
-            <div class="div_1">
-                <h2>Novas tecnologias chegando na na área:</h2>
-                <img src="Qual-a-tecnologia.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime ratione ipsum ad in aspernatur alias quaerat aut ab, blanditiis vero distinctio exercitationem assumenda perspiciatis iusto sed error dolore cumque!</p>
-                <button class="botao_1">Ver mais</button>
+    <main class="main-content">
+        <h1 id="s_title" class="section-title">Tecnologia</h1>
+        <article class="article">
+            <div class="article__block article__block--tech">
+                <h2 class="article__title">Novas tecnologias chegando na na área:</h2>
+                <img src="Qual-a-tecnologia.jpg" alt="" class="article__image">
+                <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime ratione ipsum ad in aspernatur alias quaerat aut ab, blanditiis vero distinctio exercitationem assumenda perspiciatis iusto sed error dolore cumque!</p>
+                <button class="article__button article__button--tech">Ver mais</button>
             </div>
-            <div class="div_1">
-                <h2>Tendências Tech:</h2>
-                <img src="tendencias-de-tecnologia.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus labore consequuntur, quo officia dolorum natus ipsum vitae earum excepturi exercitationem cumque optio? Quo suscipit odio beatae commodi fuga voluptatum nam.</p>
-                <button class="botao_1">Ver mais</button>
+            <div class="article__block article__block--tech">
+                <h2 class="article__title">Tendências Tech:</h2>
+                <img src="tendencias-de-tecnologia.jpg" alt="" class="article__image">
+                <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus labore consequuntur, quo officia dolorum natus ipsum vitae earum excepturi exercitationem cumque optio? Quo suscipit odio beatae commodi fuga voluptatum nam.</p>
+                <button class="article__button article__button--tech">Ver mais</button>
             </div>
-
-            <div class="div_1">
-                <h2>Novas tecnologias na área:</h2>
-                <img src="Qual-a-tecnologia.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime ratione ipsum ad in aspernatur alias quaerat aut ab, blanditiis vero distinctio exercitationem assumenda perspiciatis iusto sed error dolore cumque!</p>
-                <button class="botao_1">Ver mais</button>
+            <div class="article__block article__block--tech">
+                <h2 class="article__title">Novas tecnologias na área:</h2>
+                <img src="Qual-a-tecnologia.jpg" alt="" class="article__image">
+                <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime ratione ipsum ad in aspernatur alias quaerat aut ab, blanditiis vero distinctio exercitationem assumenda perspiciatis iusto sed error dolore cumque!</p>
+                <button class="article__button article__button--tech">Ver mais</button>
             </div>
-          
         </article>
-<h1 id="s_title_2">Entretenimento</h1>
-        <article>
-            
-            <div class="div_2">
-                <h2>Entretenimento: A sua importância!</h2>
-                <img src="entretenimento.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, veniam aperiam quis impedit laborum repudiandae consectetur asperiores hic! Ipsam earum quod aliquam numquam quisquam alias mollitia suscipit culpa nihil quasi.</p>
-                <button class="botao_2">Ver mais</button>
-            </div>
-            <div class="div_2">
-                <h2>Novidades do mercado do entretenimento:</h2>
-                <img src="download.jpeg" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sed maxime atque quos? Aliquam minima sit recusandae? Nisi, unde odit possimus reiciendis perspiciatis dolor. Quae a optio eius illo nisi?</p>
-                <button class="botao_2">Ver mais</button>
-            </div>
 
-            <div class="div_2">
-                <h2>Entretenimento: A sua importância!</h2>
-                <img src="entretenimento.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, veniam aperiam quis impedit laborum repudiandae consectetur asperiores hic! Ipsam earum quod aliquam numquam quisquam alias mollitia suscipit culpa nihil quasi.</p>
-                <button class="botao_2">Ver mais</button>
+        <h1 id="s_title_2" class="section-title">Entretenimento</h1>
+        <article class="article">
+            <div class="article__block article__block--entertainment">
+                <h2 class="article__title">Entretenimento: A sua importância!</h2>
+                <img src="entretenimento.jpg" alt="" class="article__image">
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, veniam aperiam quis impedit laborum repudiandae consectetur asperiores hic! Ipsam earum quod aliquam numquam quisquam alias mollitia suscipit culpa nihil quasi.</p>
+                <button class="article__button article__button--entertainment">Ver mais</button>
+            </div>
+            <div class="article__block article__block--entertainment">
+                <h2 class="article__title">Novidades do mercado do entretenimento:</h2>
+                <img src="download.jpeg" alt="" class="article__image">
+                <p class="article__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus sed maxime atque quos? Aliquam minima sit recusandae? Nisi, unde odit possimus reiciendis perspiciatis dolor. Quae a optio eius illo nisi?</p>
+                <button class="article__button article__button--entertainment">Ver mais</button>
+            </div>
+            <div class="article__block article__block--entertainment">
+                <h2 class="article__title">Entretenimento: A sua importância!</h2>
+                <img src="entretenimento.jpg" alt="" class="article__image">
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, veniam aperiam quis impedit laborum repudiandae consectetur asperiores hic! Ipsam earum quod aliquam numquam quisquam alias mollitia suscipit culpa nihil quasi.</p>
+                <button class="article__button article__button--entertainment">Ver mais</button>
             </div>
         </article>
     </main>
-<footer>
-    <h1 id="p_title">(footer)</h1>
 
-</footer>
-
-
-
-    
+    <footer class="footer">
+        <h1 class="footer__title">(footer)</h1>
+    </footer>
 </body>
-
 </html>

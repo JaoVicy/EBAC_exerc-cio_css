@@ -1,0 +1,169 @@
+// Variáveis de cores para fácil personalização
+$primary-color: #3498db;
+$secondary-color: #c7260a;
+$background-color: #f5f5f5;
+$text-color: #333;
+$highlight-color: #f1c40f;
+
+body {
+  background-image: url('./imgs/sky.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 50px;
+  padding: 20px;
+  background-color: $primary-color;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  &__title {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  &__nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    &-item {
+      &-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+        transition: color 0.3s, background-color 0.3s;
+
+        &:hover {
+          color: $highlight-color;
+          background-color: rgba(255, 255, 255, 0.1);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-title {
+  margin: 40px 0 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+
+  &#s_title {
+    background-color: $primary-color;
+  }
+
+  &#s_title_2 {
+    background-color: $secondary-color;
+  }
+}
+
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &__block {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+
+    &--tech {
+      background-color: lighten($primary-color, 40%);
+    }
+
+    &--entertainment {
+      background-color: lighten($secondary-color, 40%);
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+
+  &__title {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: darken($primary-color, 20%);
+  }
+
+  &__text {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  &__button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &--tech {
+      background-color: $primary-color;
+      color: #fff;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+
+    &--entertainment {
+      background-color: $secondary-color;
+      color: #fff;
+
+      &:hover {
+        background-color: darken($secondary-color, 10%);
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: $primary-color;
+  color: #fff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    font-size: 18px;
+  }
+}

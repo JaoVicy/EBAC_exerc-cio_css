@@ -1,0 +1,143 @@
+body {
+  background-image: url("./imgs/sky.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 50px;
+  padding: 20px;
+  background-color: #3498db;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.header__title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.header__nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.header__nav-item-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+.header__nav-item-link:hover {
+  color: #f1c40f;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-title {
+  margin: 40px 0 20px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.section-title#s_title {
+  background-color: #3498db;
+}
+.section-title#s_title_2 {
+  background-color: #c7260a;
+}
+
+.article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.article__block {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.article__block:hover {
+  transform: translateY(-10px);
+}
+.article__block--tech {
+  background-color: #e1f0fa;
+}
+.article__block--entertainment {
+  background-color: #fab0a3;
+}
+.article__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.article__title {
+  font-family: "Georgia", serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #196090;
+}
+.article__text {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.article__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.article__button--tech {
+  background-color: #3498db;
+  color: #fff;
+}
+.article__button--tech:hover {
+  background-color: #217dbb;
+}
+.article__button--entertainment {
+  background-color: #c7260a;
+  color: #fff;
+}
+.article__button--entertainment:hover {
+  background-color: #961d08;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #3498db;
+  color: #fff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer__title {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */

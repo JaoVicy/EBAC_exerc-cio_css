@@ -1,5 +1,8 @@
 body {
-  background-image: url("./imgs/sky.png") no-repeat center center fixed;
+  background-image: url("./imgs/sky.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -77,7 +80,8 @@ body {
   padding: 20px;
   margin: 20px;
   border-radius: 8px;
-  transition: transform 0.3s;
+  transition: transform 0.3s, max-height 0.3s ease-in-out;
+  overflow: hidden;
 }
 .article__block:hover {
   transform: translateY(-10px);
@@ -87,6 +91,9 @@ body {
 }
 .article__block--entertainment {
   background-color: #fab0a3;
+}
+.article__block.expanded {
+  max-height: 1000px;
 }
 .article__image {
   max-width: 100%;
